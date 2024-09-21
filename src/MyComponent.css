@@ -1,0 +1,9 @@
+/* MyComponent.css */
+.my-component {
+    text-align: center;
+    color: blue;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+}
