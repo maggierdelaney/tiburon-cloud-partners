@@ -1,29 +1,54 @@
 .hero-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f8f8f8; /* Change as needed */
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .nav-links ul {
-    list-style: none;
-    display: flex;
-    gap: 20px; /* Space between links */
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #333; /* Change as needed */
-  }
-  
-  .contact-link a {
-    font-weight: bold; /* Stylized Contact Us link */
-    color: #007BFF; /* Change color as needed */
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2in; /* Height set to 2 inches */
+  background-color: white; /* Background color */
+  padding: 0 20px; /* Horizontal padding for space around the logo */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto; /* Space on the right side of the logo */
+  flex-grow: 1; /* Allow the logo to grow inside the flex container */
+  max-width: 400px;
+}
+
+.logo-image {
+  width: 33.33%; /* Set to one-third of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.alegreya-sans-sc-medium {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:x-large;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Space between links */
+  margin: 0; /* Remove default margin */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555; /* Link color */
+  padding: 5px 10px; /* Padding for better click area */
+  transition: border-bottom 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid #4A8FC7
+  ; /* Blue line on hover */
+}
+
+.full-width-banner {
+  width: 100%; /* Full width of the viewport */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure the image is displayed as a block element */
+}

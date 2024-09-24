@@ -6,8 +6,11 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.6;
+    font-size: x-large;
 }
 
 .hero-section {
@@ -38,3 +41,13 @@ body {
 .about-section h2, .contact-section h2 {
     margin-bottom: 15px;
 }
+
+.my-component {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+    padding: 1cm 0; /* 1cm space at the top and bottom */
+    text-align: center; /* Center the text inside the component */
+  }
+  
